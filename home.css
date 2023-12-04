@@ -1,0 +1,142 @@
+/* homepage */
+body{
+    background-color: rgb(154, 241, 241);
+    margin: auto;
+}
+
+
+.navbar{
+    background-color: rgb(59, 163, 163);
+    border: 3px solid;
+    border-radius: 8px;
+    border-color: black ;
+    height: 50px;
+    /* position:fixed; */
+}
+
+li{
+    list-style-type: none;
+    float:left;
+    margin: 1px 20px;
+    
+    
+}
+
+.centernav{
+    margin-left: 425px;
+}
+
+li,span{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+
+
+}
+
+.nav-item{
+    margin: auto;
+    padding:8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(2, 2, 30);
+}
+.nav-item:hover{
+    background-color: rgb(164, 44, 44);
+    font-size: 22px;
+    border-radius: 10px;
+}
+#bat_ball{
+    height:18px ;
+    width:22px;
+    background-color: rgb(59, 163, 163);;
+    mix-blend-mode: multiply;
+}
+
+
+#signout{
+    float: right;
+}
+
+.body-container{
+    margin: auto;
+    padding: 75px;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p,span{
+    font-size: large;
+}
+
+/* batsmen page */
+.info-container{
+    display:inline-block;
+    margin: 7px;
+    border: black 2px solid;
+    border-radius: 25px;
+    padding: 8px;
+    height: 200px;
+    width: 330px;
+}
+
+.player-img{
+    height: 90px;
+    width: 70px;
+    border-radius: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h3{
+    
+    text-align: center;
+    
+}
+a,a:visited{
+    color: rgb(37, 3, 37);
+    text-decoration: none;
+}
+
+p{
+    margin-top: 0px;
+}
+
+/* for feedback form */
+#feedbackform
+{
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-left: 70px;
+    width: 50%;
+}
+
+#submitbtn{
+    cursor:pointer;
+    text-align: center;
+    display: block;
+    /* margin-left: 55px; */
+    margin-bottom: 30px;;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:rgb(47, 176, 185);
+    padding: 5px;
+    font-size: 15px;
+    height:40px;
+    width: 100px;
+}
+#submitbtn:hover{
+    background-color:rgb(196, 51, 63);
+    
+}

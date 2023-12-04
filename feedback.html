@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    
+
+    <title>CricketInfo | Feedback</title>
+</head>
+<body>
+    <!-- creating navbar -->
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><span><a class="nav-item" href="homepage.html"><img id="bat_ball" src="bat_ball.jpg" ><strong>C</strong>ricket<strong>I</strong>nfo</a></span></li>
+                <div class="centernav">
+                    <li><a class="nav-item" href="batsmen.html">BatsmenInfo</a></li>
+                    <li><a class="nav-item" href="bowlers.html">BowlersInfo</a></li>
+                    <li><a class="nav-item" href="feedback.html">Feedback</a></li>
+                </div>
+                <div id="signout">
+                    <li><a class="nav-item" href="signup.html">Sign Out</a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="body-container">
+        <h2>Please provide your feedback here!</h2>
+
+        
+        <form id="feedbackform" action="homepage.html">
+            
+                    <p><strong>How satisfied you are about the page content?</strong></p>
+                    <label for="sat">Satisfied</label>
+                    <input id="sat" type="checkbox" name="check" value="">
+                    <label for="neutral">Neutral</label>
+                    <input id="neutral" type="checkbox" name="check" value="">
+                    <label for="unsat">Unsatisfied</label>
+                    <input id="unsat" type="checkbox" name="check" value="">        
+                <p></p>
+                    <p><strong>Which Section do you like the most?</strong></p>
+                    <select id="sec" name="sec">
+                        <option value="batsmen">BatsmenInfo</option>
+                        <option value="bowlers">BowlersInfo</option>
+
+                    </select>
+                    <p></p>
+                    <p><strong>Is there any other player you are looking for? If yes, please specify.</strong></p>
+                    <input type="text" name="player">
+
+                    <p><strong>Any other Feedback?</strong></p>
+                    <textarea name="mytext" rows="8" cols="80" style="background-color: rgba(0,0, 1, 0);"></textarea>
+                    <p></p>
+
+                    <input id="submitbtn" type="submit" value="Submit" onclick="alert('Thanks for your valuable feedback!');">
+
+        </form>
+    </div>
+    
+</body>
+</html>
